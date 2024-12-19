@@ -1,4 +1,4 @@
-# kubernetes-dashboard-7.10.0 chart
+# kubernetes-dashboard-7.10.0 Helm chart for namespace
   - fixed generating template : add namespace when `helm tempalte -namespace dashboard`
 
 # Use
