@@ -5,7 +5,6 @@
 ```
 helm template kubernetes-dashboard kubernetes-dashboard --dependency-update --include-crds \
   --namespace dashboard \
-  --set fullnameOverride="kubernetes-dashboard" \
   --repo https://raw.githubusercontent.com/kinkist/kubernetes-dashboard-7.10.0-chart/refs/heads/main/ \
   --set kong.proxy.type=LoadBalancer \
   --set kong.proxy.http.enabled=true
