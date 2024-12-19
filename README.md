@@ -1,0 +1,1 @@
+# kubernetes-dashboard-7.10.0-chart
